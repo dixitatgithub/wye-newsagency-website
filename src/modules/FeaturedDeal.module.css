@@ -1,0 +1,42 @@
+/* FeaturedDeal.module.css */
+.featured-deal {
+    display: flex;
+    background: #fffbf0;
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 2px solid #f5c518;
+    border-radius: 10px;
+    align-items: center;
+    gap: 20px;
+}
+
+.featured-deal img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.featured-info h2 {
+    color: #d32f2f;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.featured-info h3 {
+    margin: 5px 0;
+    font-size: 1.2rem;
+}
+
+.featured-info .old-price {
+    text-decoration: line-through;
+    color: #777;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.featured-info .price {
+    font-weight: bold;
+    color: #d32f2f;
+    font-size: 1.3rem;
+}

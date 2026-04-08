@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Coca-Cola",
+        "price": "2 for £3",
+        "oldPrice": "£1.80 each",
+        "image": "/images/coke.jpg",
+        "featured": false
+    },
+    {
+        "name": "Red Bull",
+        "price": "£1.50",
+        "oldPrice": "£2.00",
+        "image": "/images/redbull.jpg",
+        "featured": false
+    },
+    {
+        "name": "Meal Deal",
+        "price": "£3.99",
+        "oldPrice": "£4.99",
+        "image": "/images/mealdeal.jpg",
+        "featured": false
+    },
+    {
+        "name": "foster",
+        "price": "£9.99",
+        "oldPrice": "£14.99",
+        "image": "/images/foster.jpg",
+        "featured": false
+    },
+    {
+        "name": "mvdsfdsfc",
+        "price": "£.99",
+        "oldPrice": "£1.99",
+        "image": "/images/mcv.jpg",
+        "featured": false
+    },
+    {
+        "name": "mvdsfdsfc",
+        "price": "£.99",
+        "oldPrice": "£1.99",
+        "image": "/images/mcv.jpg",
+        "featured": false
+    },
+    {
+        "name": "mvdsfdsfc",
+        "price": "£.99",
+        "oldPrice": "£1.99",
+        "image": "/images/mcv.jpg",
+        "featured": true
+    },
+    {
+        "name": "mvdsfdsfc",
+        "price": "£.99",
+        "oldPrice": "£1.99",
+        "image": "/images/mcv.jpg",
+        "featured": false
+    },
+    {
+        "name": "mvdsfdsfc",
+        "price": "£.99",
+        "oldPrice": "£1.99",
+        "image": "/images/mcv.jpg",
+        "featured": false
+    }
+]
