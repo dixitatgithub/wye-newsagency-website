@@ -4,7 +4,9 @@ import Hero from "../components/Hero";
 import offersData from "../data/offers.json";
 import "./Home.css";
 import styles from "../modules/FeaturedDeal.module.css";
-
+import services from "../data/services";
+import { Link } from "react-router-dom";
+import ServicesSection from "../components/ServicesSection";
 
 const offers: Offer[] = offersData;
 
@@ -114,20 +116,7 @@ function Home() {
                     ))}
                 </div>
             </section>
-
-            {/* SERVICES */}
-            <section>
-                <h2>Our Services</h2>
-                <div className="services">
-                    <div className="service-card">Newspaper Delivery</div>
-                    <div className="service-card">Evri Parcel Services</div>
-                    <div className="service-card">DHL Parcel Services</div>
-                    <div className="service-card">Photocopying</div>
-                    <div className="service-card">Dry Cleaning</div>
-                </div>
-            </section>
-
-            {/* OPENING HOURS */}
+ <ServicesSection />            {/* OPENING HOURS */}
             <section>
                 <h2>Opening Hours</h2>
                 <p>Mon - Sun: 7:00 AM - 10:00 PM</p>

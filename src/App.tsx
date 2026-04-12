@@ -5,6 +5,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import Products from "./pages/Products";
 import Contact from "./pages/Contact";
 import Category from "./pages/Category";
+import ServicePage from "./pages/ServicePage";
 
 import { Routes, Route } from "react-router-dom"; // <-- make sure to import
 
@@ -15,7 +16,7 @@ function App() {
       <ScrollToTop />
       <Routes>
 
-
+        <Route path="/services/:slug" element={<ServicePage />} />
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<Products />} />
         <Route path="/products/:category" element={<Category />} /> {/* new */}
