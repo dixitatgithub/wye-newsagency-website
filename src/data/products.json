@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Alcohol",
+        "image": "/images/alcohol.jpg"
+    },
+    {
+        "name": "Cards",
+        "image": "/images/cards.jpg"
+    },
+    {
+        "name": "Soft Drinks",
+        "image": "/images/drinks.jpg"
+    },
+    {
+        "name": "Confectionery",
+        "image": "/images/confectionery.jpg"
+    },
+    {
+        "name": "Top-Up",
+        "image": "/images/topup.jpg"
+    },
+    {
+        "name": "Stationery",
+        "image": "/images/stationery.jpg"
+    },
+    {
+        "name": "Vapes",
+        "image": "/images/vape.jpg"
+    }
+]
